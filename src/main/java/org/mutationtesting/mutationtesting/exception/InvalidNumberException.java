@@ -1,0 +1,7 @@
+package org.mutationtesting.mutationtesting.exception;
+
+public class InvalidNumberException extends Exception {
+    public InvalidNumberException(String msg) {
+        super(msg);
+    }
+}
